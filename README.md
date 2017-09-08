@@ -88,7 +88,6 @@ Performs analysis of sentence pairs and writes to `candidate-source.parallel.ana
 ## Errata
 The results presented in the paper were calculated on an earlier version of the JFLEG test set (commit #) which has since been processed for correcting errors present in the annotations (commit # ). We will be submitting errata to the ACL anthology (stay tuned), and have included both the earlier, the unprocessed test set and the final, processed test set in `data/test`. The original results were as follows and are incorrect for comparison with other systems reporting results on the JFLEG test set.
 
-|--------------|------|------|------|-------|
 | System       | GLEU | P    | R    | F_0.5 |
 |--------------|------|------|------|-------|
 | Sp. baseline | 55.5 | 57.7 | 16.6 | 38.4  |
@@ -97,11 +96,9 @@ The results presented in the paper were calculated on an earlier version of the 
 | SMEC-morph   | 58.3 | 55.9 | 41.1 | 52.2  |
 | YB16         | 58.4 | 59.4 | 35.3 | 52.3  |
 | Human        | 62.1 | 67.0 | 52.9 | 63.6  |
-|--------------|------|------|------|-------|
 
 The newer, correct results are
 
-|--------------|------|------|------|-------|
 | System       | GLEU | P    | R    | F_0.5 |
 |--------------|------|------|------|-------|
 | Sp. baseline | 47.1 | 58.4 | 17.4 | 39.7  |
@@ -110,7 +107,6 @@ The newer, correct results are
 | SMEC-morph   | 53.9 | 58.2 | 42.0 | 54.1  |
 | YB16         | 51.9 | 60.7 | 35.5 | 53.2  |
 | Human        | 62.4 | 68.8 | 62.9 | 67.5  |
-|--------------|------|------|------|-------|
 
 These results should be considered the final results. Systems scored higher when evaluated on the original, unprocessed test set because there were more errors present in that test set and so candidate sentences had greater overlap with those references.
 
